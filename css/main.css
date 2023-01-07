@@ -1,27 +1,64 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body{
 
 margin:0;
+height:2000px;
 
 }
+
+.main{
+    width: 100%;
+    height: 70%;
+    margin: 0;
+    padding: 0; 
+}
+
 nav{
-
-
-
 position: absolute;
-
-z-index: 0;
+background-color:rgba(69,54,61,.5);
+z-index: 1;
 color: #f1f1f1;
 width: 100%;
-height: 70%;
-background-color:rgb(69,54,61,.5);
-
-
-
+height: 10%;
 }
+
+.cover {
+
+    position: absolute;
+    z-index: 0;
+    color: #f1f1f1;
+    width: 100%;
+    height: 70%;
+    background-color:rgba(69,54,61,.5);
+}
+.projectName{
+
+    position: absolute;
+    z-index: 2; 
+    width: 30%;
+    height: 10%;
+    left:35%;
+    top:25%;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Sevillana', cursive;
+    text-transform: capitalize;
+    color:wheat;
+}
+
+.projectName span{
+    color:#542d2d;
+    font-size:80px ;
+}
+
+
 
 video{
 
-    width: 100vw;
+    width: 100%;
     height: 70%;
     object-fit: cover;
     position: absolute;
@@ -48,6 +85,70 @@ a{
 }
 
 a:hover{
-    color:pink;
-    text-decoration-line:underline;
+    color:rgb(180, 54, 75);
+    /*text-decoration-line:underline;*/
 }
+
+
+.featured{
+    position: absolute;
+    top:80%;
+    width:100%;
+    height: 50%;
+    
+}
+.product{
+    width:29%;
+    height:85%;
+    margin-left: 3%; 
+     border-radius: 2%;
+   /* background-color:azure;*/
+    display:inline-block ;
+   border-width: 1px;
+   border-color: gray;
+   position: relative;
+   float: left;
+}
+
+.product:hover{
+
+    box-shadow: ;
+
+}
+
+.product img {
+
+    width:50%;
+    height: 80%;
+    border-radius: 50% ;
+    position: absolute;
+    bottom:14%;
+    left: 3%;
+
+
+}
+
+.productName{
+
+display: inline-block;
+position:absolute;
+bottom: 70%;
+width:50%;
+left: 55%;
+font-family: 'Sevillana', cursive;
+text-transform: capitalize;
+font-size: 35px;
+color:#542d2d;
+
+}
+.description {
+
+    width:40%;
+    height: 40%;
+    position:absolute;
+    left:56%;
+    top:38%;
+    font-family:Arial, Helvetica, sans-serif;
+    color:darkgrey
+}
+
