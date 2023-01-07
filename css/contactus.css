@@ -1,0 +1,195 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+
+margin:0;
+height:2000px;
+
+}
+
+.main{
+    width: 100%;
+    height: 70%;
+    margin: 0;
+    padding: 0; 
+}
+
+nav{
+position: absolute;
+background-color:rgba(69,54,61,.5);
+z-index: 1;
+color: #f1f1f1;
+width: 100%;
+height: 10%;
+}
+
+.cover {
+
+    position: absolute;
+    z-index: 0;
+    color: #f1f1f1;
+    width: 100%;
+    height: 70%;
+    background-color:rgba(69,54,61,.5);
+}
+.projectName{
+
+    position: absolute;
+    z-index: 2; 
+    width: 30%;
+    height: 10%;
+    left:35%;
+    top:25%;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Sevillana', cursive;
+    text-transform: capitalize;
+    color:wheat;
+}
+
+.projectName span{
+    color:#542d2d;
+    font-size:80px ;
+}
+
+
+
+video{
+
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    position: absolute;
+   
+    z-index: -1;
+
+}
+
+ul{
+   list-style:none;
+   margin-right:40px;
+    
+}
+li{
+  float:right; 
+  margin-right:20px;
+ 
+}
+
+a{
+    color:aliceblue;
+    text-decoration-line: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+a:hover{
+    color:rgb(180, 54, 75);
+    /*text-decoration-line:underline;*/
+}
+
+.container{
+
+    width:40%;
+    height: 25%;
+    top:6%;
+    left:30%;
+    position: relative;
+    border-style: groove;
+    border-width: 3px;
+    border-color: #d9b2b2;
+    border-radius: 4%;
+   
+}
+
+.emaillabel{
+    position: absolute;
+    font-family: cursive;
+    text-transform: capitalize;
+    color:#542d2d;
+    font-size: 20px;
+    top: 40%;
+    left:7%
+   
+}
+
+.projectName{
+
+    position: absolute;
+    z-index: 2; 
+    width: 60%;
+    height: 10%;
+    left:18%;
+    top:10%;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Sevillana', cursive;
+    text-transform: capitalize;
+    color:#be0c16a3;
+}
+
+.projectName span{
+    color:#542d2d;
+    font-size:80px ;
+}
+
+ .email {
+   left :30%;
+    position: absolute;
+    width: 40%;
+    height: 5%;
+    top: 40%;
+    border-style: groove;
+    border-width: 2px;
+    border-color: #d9b2b2;
+   
+}
+
+.reviewlabel{
+    position: absolute;
+    font-family: cursive;
+    text-transform: capitalize;
+    color:#542d2d;
+    font-size: 20px;
+    top: 50%;
+    left:7%
+   
+}
+
+ .review {
+   left :30%;
+    position: absolute;
+    width: 40%;
+    height: 20%;
+    top: 50%;
+    border-style: groove;
+    border-width: 2px;
+    border-color: #d9b2b2;
+   
+    
+  
+     
+}
+
+.submit{
+
+    left :30%;
+    position: absolute;
+    width: 40%;
+    height: 10%;
+    bottom: 10%;
+    background-color: #be0c16a3;
+    border-style: none;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+    border-top-right-radius: 10% 50%;
+    border-bottom-right-radius: 10% 50%;
+    font-family: 'Sevillana', cursive;
+    color:wheat;
+    font-size: 20px;
+
+}
+
+
+
