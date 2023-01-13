@@ -5,29 +5,29 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
-body{
+body {
 
 margin:0;
 
 
 }
 
-.main{
+.main {
     width: 100%;
     height: 25.5%;
     margin: 0;
-    padding: 0; 
+    padding: 0;
 }
 
-nav{
-position: absolute;
-background-color:rgba(69,54,61,.5);
-z-index: 1;
-color: #f1f1f1;
-width: 100%;
-height: 10%;
+nav {
+    position: absolute;
+    background-color: rgba(69, 54, 61, .5);
+    z-index: 1;
+    color: #f1f1f1;
+    width: 100%;
+    height: 10%;
 }
 
 .cover {
@@ -37,21 +37,23 @@ height: 10%;
     color: #f1f1f1;
     width: 100%;
     height: 70%;
-    background-color:rgba(69,54,61,.5);
+    background-color: rgba(69, 54, 61, .5);
+
 }
-.projectNamemain{
+
+.projectName {
 
     position: absolute;
-    z-index: 2; 
+    z-index: 2;
     width: 30%;
     height: 10%;
-    left:35%;
-    top:25%;
+    left: 35%;
+    top: 25%;
     text-align: center;
     font-size: 70px;
     font-family: 'Sevillana', cursive;
     text-transform: capitalize;
-    color:wheat;
+    color: wheat;
 }
 
 .projectNamemain .smain{
@@ -69,38 +71,38 @@ video{
     height: 70%;
     object-fit: cover;
     position: absolute;
-   
     z-index: -1;
 
 }
 
-ul{
-   list-style:none;
-   margin-right:40px;
-    
-}
-li{
-  float:right; 
-  margin-right:20px;
- 
+.listed {
+    list-style: none;
+    margin-right: 40px;
+
 }
 
-a{
-    color:aliceblue;
+.link3 {
+    float: right;
+    margin-right: 20px;
+
+}
+
+.a {
+    color: aliceblue;
     text-decoration-line: none;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-a:hover{
-    color:rgb(180, 54, 75);
+a:hover {
+    color: rgb(180, 54, 75);
     /*text-decoration-line:underline;*/
 }
 
 
-.featured{
+.featured {
     position: absolute;
-    top:80%;
-    width:100%;
+    top: 80%;
+    width: 100%;
     height: 50%;
     
 }
@@ -121,38 +123,39 @@ a:hover{
 
 .product img {
 
-    width:50%;
+    width: 50%;
     height: 80%;
-    border-radius: 50% ;
+    border-radius: 50%;
     position: absolute;
-    bottom:14%;
+    bottom: 14%;
     left: 3%;
 
 
 }
 
-.productName{
+.productName {
 
-display: inline-block;
-position:absolute;
-bottom: 70%;
-width:50%;
-left: 55%;
-font-family: 'Sevillana', cursive;
-text-transform: capitalize;
-font-size: 35px;
-color:#542d2d;
+    display: inline-block;
+    position: absolute;
+    bottom: 70%;
+    width: 50%;
+    left: 55%;
+    font-family: 'Sevillana', cursive;
+    text-transform: capitalize;
+    font-size: 35px;
+    color: #542d2d;
 
 }
+
 .description {
 
-    width:40%;
+    width: 40%;
     height: 40%;
-    position:absolute;
-    left:56%;
-    top:38%;
-    font-family:Arial, Helvetica, sans-serif;
-    color:darkgrey
+    position: absolute;
+    left: 56%;
+    top: 38%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgrey
 }
 
 .featured2{
