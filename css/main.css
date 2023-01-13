@@ -1,3 +1,8 @@
+
+*{
+     box-sizing: border-box;
+}
+
 html {
     scroll-behavior: smooth;
   }
@@ -5,13 +10,13 @@ html {
 body{
 
 margin:0;
-height:2000px;
+
 
 }
 
 .main{
     width: 100%;
-    height: 70%;
+    height: 25.5%;
     margin: 0;
     padding: 0; 
 }
@@ -34,7 +39,7 @@ height: 10%;
     height: 70%;
     background-color:rgba(69,54,61,.5);
 }
-.projectName{
+.projectNamemain{
 
     position: absolute;
     z-index: 2; 
@@ -49,10 +54,12 @@ height: 10%;
     color:wheat;
 }
 
-.projectName span{
+.projectNamemain .smain{
     color:#542d2d;
     font-size:80px ;
 }
+
+
 
 
 
@@ -97,6 +104,7 @@ a:hover{
     height: 50%;
     
 }
+
 .product{
     width:29%;
     height:85%;
@@ -107,7 +115,7 @@ a:hover{
    border-width: 1px;
    border-color: gray;
    position: relative;
-   float: left;
+
 }
 
 
@@ -146,4 +154,23 @@ color:#542d2d;
     font-family:Arial, Helvetica, sans-serif;
     color:darkgrey
 }
+
+.featured2{
+
+   
+    position: absolute;
+    top:118%;
+    width:70%;
+    height: 50%;
+    left: 18%;
+    
+}
+
+.featured2 .product{
+    width:40%;
+
+   
+
+}
+
 
