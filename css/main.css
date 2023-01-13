@@ -166,6 +166,25 @@ color:#542d2d;
     
 }
 
+.navbutton{
+
+    
+    position: absolute;
+    width: 30%;
+    height: 10%;
+    bottom: 10%;
+    background-color: #be0c16a3;
+    border-style: none;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+    border-top-right-radius: 10% 50%;
+    border-bottom-right-radius: 10% 50%;
+    font-family: 'Sevillana', cursive;
+    color:wheat;
+    font-size: 20px;
+
+}
+
 .featured2 .product{
     width:40%;
 
