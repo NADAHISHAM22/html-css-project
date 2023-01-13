@@ -99,8 +99,7 @@ a:hover{
     position: absolute;
     border-style: solid;
     border-width: 1px;
-border-color:#be0c16a3;
-   
+    border-color:#5E4C5A;
     border-radius: 4%;
     background-size: 100% 100%;
    
@@ -119,7 +118,7 @@ border-color:#be0c16a3;
    
 }
 
-.projectName{
+.projectNamecon{
 
     position: absolute;
     z-index: 2; 
@@ -131,7 +130,7 @@ border-color:#be0c16a3;
     font-size: 70px;
     font-family: 'Sevillana', cursive;
     text-transform: capitalize;
-    color:#be0c16a3;
+    color:#F4CBC6;
 }
 
 .projectName span{
