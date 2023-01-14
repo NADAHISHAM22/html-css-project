@@ -10,10 +10,11 @@ table {
     width: 80%;
     table-layout: fixed;
     min-width: 1000px;
+    margin: auto;
 }
 
 .table-body {
-    height: 650px;
+    /* height: 650px; */
     /* overflow: auto; */
 
 }
@@ -21,8 +22,8 @@ table {
 thead th {
     position: sticky;
     top: 0%;
-    background-color: #f6f9fc;
-    color: #8493a5;
+    background-color: #5E4C5A;
+    color: white;
     font-size: 15px;
 
 }
@@ -37,10 +38,324 @@ td {
 
 .table {
     list-style: none;
-    margin-top: 20%;
+    margin-top: 15%;
+    display: inline-block;
+    /* float: right; */
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 20%;
+    ;
+
+}
+
+.table-header h1 {
+    text-align: center;
+    padding: auto;
+
+}
+
+/* nav */
+
+nav {
+    /* background-color: rgb(94, 76, 90, 0.3); */
+    /* background: linear-gradient(to right, #5e4c5a, #F4CBC6); */
+    /* background: rgb(94,76,90);  */
+    background: linear-gradient(85deg, rgba(94, 76, 90, 1) 70%, rgba(244, 203, 198, 1) 100%);
+    z-index: 1;
+    color: #f1f1f1;
+    width: 100%;
+    height: 10%;
+    opacity: 0.8;
+    display: inline-block;
+}
+
+
+.login {
+    list-style: none;
+    margin-top: 20px;
     display: inline-block;
     float: right;
     margin-right: 40px;
-    margin-left: 40px;
+
+}
+
+.link-pagelogin {
+    float: right;
+    margin-right: 20px;
+
+}
+
+.hyper-link {
+    color: white;
+    text-decoration-line: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hyper-link:hover {
+    color: #3498db;
+    /*text-decoration-line:underline;*/
+
+}
+
+nav button {
+
+    width: 150px;
+    height: 30px;
+    position: relative;
+    bottom: 6px;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+    border-top-right-radius: 10% 50%;
+    border-bottom-right-radius: 10% 50%;
+    color: white;
+    background-color: rgba(69, 54, 61, .8);
+    border-width: 1px;
+    border-style: none;
+
+
+}
+
+
+nav .projectName {
+    position: absolute;
+    height: 55px;
+    top: 0px;
+
+}
+
+.projectName {
+
+    z-index: 2;
+    height: 10%;
+    text-align: left;
+    font-size: 40px;
+    font-family: 'Sevillana', cursive;
+    text-transform: capitalize;
+    color: wheat;
+    display: inline-block;
+}
+
+.projectName span {
+    color: #542d2d;
+    font-size: 45px;
+}
+
+
+
+/*   --------------- footer ----------------------->*/
+footer {
+    width: 100%;
+    background: linear-gradient(to right, #5E4C5A, #F4CBC6);
+    color: #fff;
+    padding: 100px 0 30px;
+    font-size: 13px;
+    line-height: 20px;
+
+}
+
+.row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col {
+    flex-basis: 25%;
+    padding: 10px;
+    /* margin: 0; */
+}
+
+.list {
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+.link2 {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.col h4 {
+    width: fit-content;
+    /* margin-bottom: 40px; */
+    text-transform: capitalize;
+    position: relative;
+    /* margin-left: 0px; */
+
+}
+
+.col1 {
+    padding: 0px;
+}
+
+.form {
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+
+.form .far {
+    font-size: 18px;
+    margin-right: 10PX;
+}
+
+.form input {
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+
+.button {
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.button .fa-solid {
+    font-size: 16px;
+    color: #ccc;
+
+}
+
+.social-media .fab {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.social-media .fa-brands {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.Name {
+
+
+    z-index: 2;
+    height: 10%;
+    left: 0%;
+    top: 25%;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Sevillana', cursive;
+    text-transform: capitalize;
+    color: wheat;
+
+}
+
+.Name span {
+
+    color: #542d2d;
+    font-size: 40px;
+}
+
+.col .fa-solid {
+    text-decoration: none;
+    color: white;
+}
+
+.email-id {
+    width: fit-content;
+    padding-top: 14px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.link {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 16px;
+}
+
+.col h3 {
+    margin-top: 0px;
+
+}
+
+.col2 {
+    padding-inline-start: 40px;
+}
+
+#a {
+    padding-inline-start: 40px;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 780px) {
+    footer {
+        padding: 50px 0 30px;
+    }
+
+    .row {
+        display: block;
+        margin-bottom: 15px;
+        width: 100%;
+
+
+    }
+
+    .container {
+        margin: 0 40px;
+    }
+
+    .box {
+
+        width: auto;
+    }
+
+    /* .table {
+        padding: 50px;
+    } */
+    table {
+        width: 100%;
+        min-width: 45px;
+        margin: auto;
+        display: block;
+        font-size: 15px;
+        /* padding: 0; */
+    }
+
+    thead {
+        font-size: 15px;
+
+    }
+
+    thead th {
+        font-size: 15px;
+        padding: 0px;
+    }
+
+    tbody td {
+        padding: 6px;
+    }
+
+    ;
+
 
 }

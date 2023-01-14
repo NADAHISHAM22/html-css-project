@@ -88,7 +88,7 @@ nav {
 
     margin: 12px auto;
     text-align: center;
-    border: 2px solid #3498db;
+    border: 2px solid rgb(109, 114, 195);
     padding: 14px 10px;
     width: 200px;
     outline: none;
@@ -100,7 +100,7 @@ nav {
 
 .box input[type="text"]:focus,
 .box input[type="password"]:focus,
-.box input[type="email"] {
+.box input[type="email"]:focus {
     width: 250 px;
     border-color: #5E4C5A;
 }
@@ -235,6 +235,14 @@ footer {
     outline: none;
 }
 
+.form input {
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+
 .button {
     background: transparent;
     border: 0;
@@ -245,6 +253,8 @@ footer {
 .button .fa-solid {
     font-size: 16px;
     color: #ccc;
+    word-spacing: 0.3px;
+
 
 }
 
@@ -297,7 +307,7 @@ footer {
 
 .col .fa-solid {
     text-decoration: none;
-    color: #2d0b00;
+    color: white;
 }
 
 .email-id {
@@ -365,5 +375,15 @@ footer {
     .box {
 
         width: auto;
+    }
+
+    .box input[type="text"],
+    .box input[type="password"],
+    .box input[type="email"] {
+        width: 100%;
+    }
+
+    .gender-detail .gender {
+        display: block;
     }
 }

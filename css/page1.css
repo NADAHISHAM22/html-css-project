@@ -296,7 +296,7 @@ footer {
 
 .col .fa-solid {
     text-decoration: none;
-    color: #2d0b00;
+    color: white;
 }
 
 .email-id {
@@ -318,7 +318,7 @@ footer {
 }
 
 /* .col2 {
-    padding-inline-start: 0%;
+    padding-inline-start: 40px;
 } */
 
 #a {
@@ -344,7 +344,7 @@ footer {
 
 
 
-@media (max-width: 780px) {
+@media (max-width: 600px) {
     footer {
         padding: 50px 0 30px;
     }
@@ -358,11 +358,16 @@ footer {
     }
 
     .container {
-        margin: 0 40px;
+        margin: 0 20px;
     }
 
     .box {
 
         width: auto;
+    }
+
+    .box input[type="text"],
+    .box input[type="password"] {
+        width: 100%;
     }
 }
