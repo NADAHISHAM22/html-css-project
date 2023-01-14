@@ -22,13 +22,7 @@
         height: 1500px;
     }
 
-    .description{
-
-
-float: right;
-
-    }
-
+  
     .product img{
         width: 189px;
         height: 202px; 
@@ -40,22 +34,15 @@ float: right;
 
         float: right;
     }
+
+
     .featured{
 
-display: block;
-height: 44%;
-
-
+    display: block;
+    height: 44%;
 
     }
 
-    .featured2{
-
-        display:block;
-     
-        
-        
-            }
 
     footer{
         top:2500px;
