@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -5,24 +9,25 @@ html {
 body {
 
     margin: 0;
-    height: 2000px;
+
 
 }
 
 .main {
     width: 100%;
-    height: 70%;
+    height: 25.5%;
     margin: 0;
     padding: 0;
 }
 
 nav {
     position: absolute;
-    background-color: rgba(69, 54, 61, .5);
+    background-color: rgba(69, 54, 61, .7);
     z-index: 1;
     color: #f1f1f1;
     width: 100%;
-    height: 10%;
+    height: 7.5%;
+    padding: .5%;
 }
 
 .cover {
@@ -35,7 +40,7 @@ nav {
     background-color: rgba(69, 54, 61, .5);
 }
 
-.projectName {
+.projectNamemain {
 
     position: absolute;
     z-index: 2;
@@ -50,10 +55,12 @@ nav {
     color: wheat;
 }
 
-.projectName span {
+.projectNamemain .smain {
     color: #542d2d;
     font-size: 80px;
 }
+
+
 
 
 
@@ -68,19 +75,49 @@ video {
 
 }
 
-.listed {
+ul {
+
     list-style: none;
-    margin-right: 40px;
+    position: relative;
+    bottom: 6px;
+    height: 100%;
 
 }
 
-.link3 {
+li {
+
     float: right;
-    margin-right: 20px;
+    margin-right: 3%;
+
 
 }
 
-.a {
+nav button {
+
+    width: 150px;
+    height: 30px;
+    position: relative;
+    bottom: 6px;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+    border-top-right-radius: 10% 50%;
+    border-bottom-right-radius: 10% 50%;
+    color: white;
+    background-color: rgba(69, 54, 61, .8);
+    border-width: 1px;
+    border-style: none;
+
+
+}
+
+nav .projectName {
+    position: absolute;
+    height: 55px;
+    top: 0px;
+
+}
+
+a {
     color: aliceblue;
     text-decoration-line: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -110,14 +147,9 @@ a:hover {
     border-width: 1px;
     border-color: gray;
     position: relative;
-    float: left;
-}
-
-.product:hover {
-
-    box-shadow: ;
 
 }
+
 
 .product img {
 
@@ -156,166 +188,39 @@ a:hover {
     color: darkgrey
 }
 
-footer {
-    width: 100%;
-    position: absolute;
-    bottom: -2000px;
-    background: linear-gradient(to right, #5E4C5A, #F4CBC6);
-    color: #fff;
-    padding: 100px 0 30px;
-    font-size: 13px;
-    line-height: 20px;
-}
+.featured2 {
 
-.row {
-    width: 85%;
-    margin: auto;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
-.col {
-    flex-basis: 25%;
-    padding: 10px;
-    margin: ;
-}
-
-.list {
-    list-style: none;
-    margin-bottom: 12px;
-}
-
-.link2 {
-    text-decoration: none;
-    color: #fff;
-
-}
-
-.col h4 {
-    width: fit-content;
-    /* margin-bottom: 40px; */
-    text-transform: capitalize;
-    position: relative;
-    /* margin-left: 0px; */
-
-}
-
-.col1 {
-    padding: 0px;
-}
-
-form {
-    padding-bottom: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 50px;
-}
-
-form .far {
-    font-size: 18px;
-    margin-right: 10PX;
-}
-
-form input {
-    width: 100%;
-    background: transparent;
-    color: #ccc;
-    border: 0;
-    outline: none;
-}
-
-form button {
-    background: transparent;
-    border: 0;
-    outline: none;
-    cursor: pointer;
-}
-
-form button .fa-solid {
-    font-size: 16px;
-    color: #ccc;
-
-}
-
-.social-media .fab {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 40px;
-    font-size: 20px;
-    color: #000;
-    background: #fff;
-    margin-right: 15px;
-    cursor: pointer;
-}
-
-.social-media .fa-brands {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 40px;
-    font-size: 20px;
-    color: #000;
-    background: #fff;
-    margin-right: 15px;
-    cursor: pointer;
-}
-
-.Name {
 
     position: absolute;
-    z-index: 2;
+    top: 118%;
+    width: 70%;
+    height: 50%;
+    left: 18%;
+
+}
+
+.navbutton {
+
+
+    position: absolute;
     width: 30%;
     height: 10%;
-    left: 0%;
-    top: 25%;
-    text-align: center;
-    font-size: 25px;
+    bottom: 10%;
+    background-color: #be0c16a3;
+    border-style: none;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+    border-top-right-radius: 10% 50%;
+    border-bottom-right-radius: 10% 50%;
     font-family: 'Sevillana', cursive;
-    text-transform: capitalize;
     color: wheat;
+    font-size: 20px;
 
 }
 
-.Name span {
+.featured2 .product {
+    width: 40%;
 
-    color: #542d2d;
-    font-size: 40px;
-}
 
-.col .fa-solid {
-    text-decoration: none;
-    color: #2d0b00;
-}
 
-.email-id {
-    width: fit-content;
-    padding-top: 14px;
-    font-size: 14px;
-    color: #ccc;
-}
-
-.link {
-    text-decoration: none;
-    color: #ccc;
-    font-size: 16px;
-}
-
-.col h3 {
-    margin-top: 0px;
-
-}
-
-/* .col2 {
-    padding-inline-start: 0%;
-} */
-
-#a {
-    padding-inline-start: 40px;
 }

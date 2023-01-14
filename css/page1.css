@@ -75,7 +75,7 @@ nav {
 
 .box h1 {
     color: black;
-    text-transform: : uppercase;
+    text-transform: uppercase;
     font-width: 500px;
 
 
@@ -275,7 +275,7 @@ footer {
 
 .Name {
 
-    
+
     z-index: 2;
     height: 10%;
     left: 0%;
@@ -345,7 +345,7 @@ footer {
 
 
 @media (max-width: 780px) {
-    footer{
+    footer {
         padding: 50px 0 30px;
     }
 
@@ -353,13 +353,15 @@ footer {
         display: block;
         margin-bottom: 15px;
         width: 100%;
-        
-     
+
+
     }
-    .container{
+
+    .container {
         margin: 0 40px;
     }
-    .box{
+
+    .box {
 
         width: auto;
     }

@@ -5,7 +5,8 @@ html {
 body{
 
 margin:0;
-height:2000px;
+background-color:#ebe2e2a3;
+
 
 }
 
@@ -92,14 +93,16 @@ a:hover{
 .container{
 
     width:40%;
-    height: 25%;
-    top:6%;
+    height: 75%;
+    top:19%;
     left:30%;
-    position: relative;
-    border-style: groove;
-    border-width: 3px;
-    border-color: #d9b2b2;
+    position: absolute;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#5E4C5A;
     border-radius: 4%;
+    background-size: 100% 100%;
+   
    
 }
 
@@ -110,23 +113,24 @@ a:hover{
     color:#542d2d;
     font-size: 20px;
     top: 40%;
-    left:7%
+    left:7%;
+   
    
 }
 
-.projectName{
+.projectNamecon{
 
     position: absolute;
     z-index: 2; 
     width: 60%;
     height: 10%;
     left:18%;
-    top:10%;
+    top:12%;
     text-align: center;
     font-size: 70px;
     font-family: 'Sevillana', cursive;
     text-transform: capitalize;
-    color:#be0c16a3;
+    color:#F4CBC6;
 }
 
 .projectName span{
@@ -141,8 +145,8 @@ a:hover{
     height: 5%;
     top: 40%;
     border-style: groove;
-    border-width: 2px;
-    border-color: #d9b2b2;
+    border-style: none;
+    border-radius: 2%;
    
 }
 
@@ -163,10 +167,8 @@ a:hover{
     width: 40%;
     height: 20%;
     top: 50%;
-    border-style: groove;
-    border-width: 2px;
-    border-color: #d9b2b2;
-   
+    border-style: none;
+    border-radius: 3%;
     
   
      
@@ -174,11 +176,11 @@ a:hover{
 
 .submit{
 
-    left :30%;
+    left: 33%;
     position: absolute;
-    width: 40%;
-    height: 10%;
-    bottom: 10%;
+    width: 35%;
+    height: 8%;
+    bottom: 18%;
     background-color: #be0c16a3;
     border-style: none;
     border-top-left-radius: 10% 50%;
@@ -186,7 +188,7 @@ a:hover{
     border-top-right-radius: 10% 50%;
     border-bottom-right-radius: 10% 50%;
     font-family: 'Sevillana', cursive;
-    color:wheat;
+    color: wheat;
     font-size: 20px;
 
 }
