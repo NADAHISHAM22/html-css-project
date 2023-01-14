@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/342e2aa04d.js" crossorigin="anonymous"></script>
-    <title>Login</title>
+    <title>Register</title>
     <link rel="stylesheet" href="../css/page1.css">
 </head>
 
@@ -31,12 +31,18 @@
         <form class="box">
             <img src="../img/OIP.jpg" class="avatar">
             <div class="type">
-                <h1>Login</h1>
-                <input type="text" name=" " placeholder="username">
+                <h1>Register</h1>
+                <input type="text" name=" " placeholder="First name">
+                <input type="text" name=" " placeholder="Last name">
+                <input type="email" name=" " placeholder="Enter your email">
                 <input type="password" name=" " placeholder="password">
+                <div class="gender-detail">
+                    <label class="gender"> Gender</label>
+                    <input id="f" type="radio" name="gender" placeholder="First name"> <label for="f">Famale</label>
+                    <input id="m" type="radio" name="gender" placeholder="First name"> <label for="m">Male</label>
+                </div>
                 <input type="submit" name=" " value="Login">
             </div>
-
         </form>
 
     </div>
@@ -84,7 +90,7 @@
                 <h3>Newsletter</h3>
                 <form class="form">
                     <i class="fa-solid fa-envelope"></i>
-                    <input class="em" type="email" placeholder="Enter your email" required>
+                    <input type="email" placeholder="Enter your email" required>
                     <button class="button" type=" submit"><i class="fa-solid fa-arrow-right"></i></button>
                 </form>
                 <div class="social-media">
