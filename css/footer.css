@@ -1,7 +1,5 @@
 .footer {
     width: 100%;
-    position: absolute;
-  top:180%;
     background: linear-gradient(to right, #5E4C5A, #F4CBC6);
     color: #fff;
     padding: 100px 0 30px;
@@ -21,7 +19,7 @@
 .col {
     flex-basis: 25%;
     padding: 10px;
-   
+    /* margin: 0; */
 }
 
 .list {
@@ -48,7 +46,7 @@
     padding: 0px;
 }
 
-form {
+.form {
     padding-bottom: 15px;
     display: flex;
     align-items: center;
@@ -57,12 +55,12 @@ form {
     margin-bottom: 50px;
 }
 
-form .far {
+.form .far {
     font-size: 18px;
     margin-right: 10PX;
 }
 
-form input {
+.form input {
     width: 100%;
     background: transparent;
     color: #ccc;
@@ -70,14 +68,14 @@ form input {
     outline: none;
 }
 
-form button {
+.button {
     background: transparent;
     border: 0;
     outline: none;
     cursor: pointer;
 }
 
-form button .fa-solid {
+.button .fa-solid {
     font-size: 16px;
     color: #ccc;
 
@@ -109,11 +107,10 @@ form button .fa-solid {
     cursor: pointer;
 }
 
-.projectName {
+.Name {
 
-    position: absolute;
+
     z-index: 2;
-    width: 30%;
     height: 10%;
     left: 0%;
     top: 25%;
@@ -125,7 +122,8 @@ form button .fa-solid {
 
 }
 
-.projectName span {
+.Name span {
+
     color: #542d2d;
     font-size: 40px;
 }
@@ -159,4 +157,24 @@ form button .fa-solid {
 
 #a {
     padding-inline-start: 40px;
+}
+
+@media (max-width: 780px) {
+    footer {
+        padding: 50px 0 30px;
+    }
+
+    .row {
+        display: block;
+        margin-bottom: 15px;
+        width: 100%;
+
+
+    }
+
+    .container {
+        margin: 0 40px;
+    }
+
+
 }

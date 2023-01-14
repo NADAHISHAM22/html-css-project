@@ -77,17 +77,16 @@ nav {
     color: black;
     text-transform: uppercase;
     font-width: 500px;
-
-
 }
 
 .box input[type="text"],
-.box input[type="password"] {
+.box input[type="password"],
+.box input[type="email"] {
     border: 0;
     background: none;
     display: block;
 
-    margin: 20px auto;
+    margin: 12px auto;
     text-align: center;
     border: 2px solid rgb(109, 114, 195);
     padding: 14px 10px;
@@ -95,11 +94,13 @@ nav {
     outline: none;
     color: white;
     border-radius: 24px;
-    /* transition: 0.25s; */
+    transition: 0.25s;
 }
 
+
 .box input[type="text"]:focus,
-.box input[type="password"]:focus {
+.box input[type="password"]:focus,
+.box input[type="email"]:focus {
     width: 250 px;
     border-color: #5E4C5A;
 }
@@ -226,6 +227,14 @@ footer {
     margin-right: 10PX;
 }
 
+.form .em {
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+
 .form input {
     width: 100%;
     background: transparent;
@@ -244,6 +253,8 @@ footer {
 .button .fa-solid {
     font-size: 16px;
     color: #ccc;
+    word-spacing: 0.3px;
+
 
 }
 
@@ -318,7 +329,7 @@ footer {
 }
 
 /* .col2 {
-    padding-inline-start: 40px;
+    padding-inline-start: 0%;
 } */
 
 #a {
@@ -344,7 +355,7 @@ footer {
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 780px) {
     footer {
         padding: 50px 0 30px;
     }
@@ -358,7 +369,7 @@ footer {
     }
 
     .container {
-        margin: 0 20px;
+        margin: 0 40px;
     }
 
     .box {
@@ -367,7 +378,12 @@ footer {
     }
 
     .box input[type="text"],
-    .box input[type="password"] {
+    .box input[type="password"],
+    .box input[type="email"] {
         width: 100%;
+    }
+
+    .gender-detail .gender {
+        display: block;
     }
 }

@@ -1,4 +1,4 @@
-@media only screen and (max-width: 972px) {
+@media only screen and (max-width: 1449px) {
     body{
        height: 1000px
        width:134%;
@@ -17,6 +17,10 @@
       
 
     }
+    .container{
+
+        height: 1500px;
+    }
 
     .description{
 
@@ -29,12 +33,19 @@ float: right;
         width: 189px;
         height: 202px; 
         border-radius: 0%;
-        margin-left: 70%;
+        margin: auto;
      
+    }
+    .description{
+
+        float: right;
     }
     .featured{
 
 display: block;
+height: 44%;
+
+
 
     }
 
@@ -50,6 +61,6 @@ display: block;
         top:2500px;
     }
 
-     }
+}
     
   
