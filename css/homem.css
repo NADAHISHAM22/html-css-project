@@ -1,0 +1,55 @@
+@media only screen and (max-width: 972px) {
+    body{
+       height: 1000px
+       width:134%;
+    }
+    
+    ul{
+        display: none;
+    }
+    .product{
+
+        float:none;
+        display: block;
+        width:80%;
+        height:200px;
+        
+      
+
+    }
+
+    .description{
+
+
+float: right;
+
+    }
+
+    .product img{
+        width: 189px;
+        height: 202px; 
+        border-radius: 0%;
+        margin-left: 70%;
+     
+    }
+    .featured{
+
+display: block;
+
+    }
+
+    .featured2{
+
+        display:block;
+     
+        
+        
+            }
+
+    footer{
+        top:2500px;
+    }
+
+     }
+    
+  
