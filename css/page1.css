@@ -69,8 +69,8 @@ nav {
     border: 0;
     border-radius: 20px;
     margin: auto;
-    margin-top: 120px;
-    margin-bottom: 80px;
+    margin-top: 175px;
+    margin-bottom: 199px;
 }
 
 .box h1 {
@@ -229,7 +229,7 @@ footer {
 .form input {
     width: 100%;
     background: transparent;
-    color: #ccc;
+    color: white;
     border: 0;
     outline: none;
 }
@@ -364,10 +364,46 @@ footer {
     .box {
 
         width: auto;
+
     }
 
     .box input[type="text"],
     .box input[type="password"] {
         width: 100%;
     }
+
+    .box input[type="submit"] {
+        width: 100%;
+        padding: 6px;
+    }
+}
+
+@media (max-width: 272px) {
+    .avatar {
+        width: 80%;
+        height: 80%;
+
+
+    }
+
+    .box input[type="text"],
+    .box input[type="password"] {
+        width: 100%;
+        padding: 8px;
+    }
+
+    .box {
+        padding: 5px;
+    }
+
+    .type h1 {
+        font-size: 15px;
+    }
+
+    .box input[type="text"],
+    .box input[type="password"] {
+        width: 100%;
+        padding: 1px;
+    }
+
 }
