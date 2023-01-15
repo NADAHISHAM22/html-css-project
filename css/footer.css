@@ -1,4 +1,4 @@
-.footer {
+footer {
     width: 100%;
     background: linear-gradient(to right, #5E4C5A, #F4CBC6);
     color: #fff;
@@ -130,7 +130,7 @@
 
 .col .fa-solid {
     text-decoration: none;
-    color: #2d0b00;
+    color: white;
 }
 
 .email-id {
@@ -152,14 +152,33 @@
 }
 
 /* .col2 {
-    padding-inline-start: 0%;
+    padding-inline-start: 40px;
 } */
 
 #a {
     padding-inline-start: 40px;
 }
 
-@media (max-width: 780px) {
+/* responsive */
+/* @media (max-width=780px) {
+    .box {
+        width: 300px;
+        padding: 40px;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        height: 45%;
+        transform: translate(-50%, -50%);
+        /* background: white; */
+/* text-align: center; */
+/* border: 0; */
+/* border-radius: 20px; 
+}*/
+
+
+
+
+@media (max-width: 600px) {
     footer {
         padding: 50px 0 30px;
     }
@@ -172,9 +191,7 @@
 
     }
 
-    .container {
-        margin: 0 40px;
-    }
+
 
 
 }
