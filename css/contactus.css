@@ -75,10 +75,17 @@ body {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+        height: 80px;
+    }
+
+    .projectNamenav {
+        font-size: 21px;
+        text-align: left;
     }
 
     .toggle-button {
         display: flex;
+        margin-top: 38px;
     }
 
     .navbar-links {
@@ -307,7 +314,7 @@ form {
     .ccontainer {
 
         display: inline-block;
-        width: 347px;
+        width: 80%;
         height: 600px;
         border-style: solid;
         border-width: 1px;
@@ -318,16 +325,21 @@ form {
 
     }
 
+    .projectNamecon {
+        font-size: 50px;
+    }
+
     .contact-us {
         text-align: center;
     }
 
     .email {
-        width: 50%;
+        width: 84%;
         background: transparent;
         border: solid 1px white;
         border-radius: 15px;
         height: 30px;
+        margin: 0px;
     }
 
     .review {
@@ -544,4 +556,33 @@ footer {
 
 
 
-}
+    @media (max-width:250px) {
+        .ccontainer {
+            width: 50%;
+        }
+
+        .projectNamecon {
+            font-size: 20px;
+        }
+
+        .submit {
+            margin-left: 15px;
+            width: 59%;
+        }
+
+        .email {}
+
+        .emaillabel {
+            font-size: 15px;
+        }
+
+        .reviewlabel {
+            font-size: 15px;
+        }
+
+        .projectNamenav {
+            font-size: 21px;
+            text-align: left;
+        }
+
+    }
